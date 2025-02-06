@@ -4,7 +4,7 @@ const vscode = require('vscode');
  */
 function activate(context) {
 
-	const disposable = vscode.commands.registerCommand('extension-poc.helloWorld', function () {
+	const disposable = vscode.commands.registerCommand('extension-poc.GetWord', function () {
 
 		const editor = vscode.window.activeTextEditor;
 		const selection = editor.selection;

@@ -13,12 +13,12 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "extension-poc.helloWorld",
+      "command": "extension-poc.GetWord",
       "title": "Hello World"
     }],
     "keybindings":[
       {
-        "command": "extension-poc.helloWorld",
+        "command": "extension-poc.GetWord",
         "key": "ctrl+alt+w"
       }
     ]
